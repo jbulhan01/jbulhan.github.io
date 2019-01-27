@@ -49,8 +49,8 @@ nav a{
 }
 
 p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 
@@ -99,6 +99,29 @@ textarea {
     clear: both;
 }
 
+.portfolio-pic {
+    position: relative;
+    background-color: rgba(0,0,0, .5);
+    margin-bottom: 20px; 
+    width: 45%;
+    float: left;
+    height: 250px;
+ }
+
+.portfolio-pic:nth-of-type(even) {
+    float: right;
+}
+
+ .portfolio-pic h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom:15px;
+    width: 15px;
+ }
+
 section {
     background: whtie;
     padding:25px;
@@ -122,4 +145,40 @@ section {
     margin-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     
+}
+
+#pic1 {
+    background: url('../images/aniket-deole-294646-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic2 {
+    background: url('../images/daniela-cuevas-21225-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic3{
+    background: url('../images/irene-davila-329992-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic4 {
+    background: url('../images/jeremy-bishop-527439-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+#pic5 {
+    background: url('../images/pietro-de-grandi-329892-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#pic6 {
+   background: url('../images/rob-bates-701730-unsplash.jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
 }
