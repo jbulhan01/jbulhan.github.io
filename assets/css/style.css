@@ -108,8 +108,6 @@ textarea {
  }
 
  .portfolio-pic h4 {
-    background: #4aaaa5;
-    color: white;
     text-align: center;
     padding: 20px 0;
     position: absolute;
@@ -146,6 +144,9 @@ section {
     background: url('../images/aniket-deole-294646-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 }
 
@@ -153,6 +154,9 @@ section {
     background: url('../images/daniela-cuevas-21225-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 }
 
@@ -160,6 +164,9 @@ section {
     background: url('../images/irene-davila-329992-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 }
 
@@ -167,6 +174,9 @@ section {
     background: url('../images/jeremy-bishop-527439-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 } 
 
@@ -174,6 +184,9 @@ section {
     background: url('../images/pietro-de-grandi-329892-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat; 
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 }
 
@@ -181,5 +194,8 @@ section {
    background: url('../images/rob-bates-701730-unsplash.jpg');
    background-size: cover;
     background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     clear: both;
 }
